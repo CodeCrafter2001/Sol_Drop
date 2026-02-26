@@ -21,6 +21,7 @@ function App() {
                 <WalletModalProvider>
                   <div style={{width:"100vw", display:"flex", justifyContent:"center"}}>
                     <WalletMultiButton/>
+                    <WalletDisconnectButton/>
                     <RequestAirDrop/>
                     </div>
                 </WalletModalProvider>
